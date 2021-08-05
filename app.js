@@ -4,8 +4,11 @@
 
 var translateButton = document.querySelector("#button");
 var txtInput = document.querySelector("#textarea1")
+var translatedText = document.querySelector("#translatedText")
 
-translateButton.addEventListener("click", function clicked(){
-     return console.log("clicked!!")
-})
+function clicked(){
+    translatedText.innerText = "leMinionYou: " + txtInput.value
+    
+}
+translateButton.addEventListener("click", clicked)
 

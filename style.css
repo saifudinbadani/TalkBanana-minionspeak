@@ -1,6 +1,7 @@
 #textarea1 {
     width: 50%;
     margin: 1rem;
+    display: block;
     padding: 1rem;
     border-style: solid;
 
