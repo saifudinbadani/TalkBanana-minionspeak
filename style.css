@@ -1,10 +1,16 @@
-.textarea1 {
+#textarea1 {
     width: 50%;
     margin: 1rem;
     padding: 1rem;
-    
+    border-style: solid;
+
 }
 
-.button {
+#button {}
 
+#translatedText {
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    border-style: solid;
 }
