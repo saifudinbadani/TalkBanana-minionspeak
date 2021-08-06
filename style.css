@@ -1,17 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+:root {
+    --primarycolor: #FDE047;
+
+
+}
+
+body{
+    background-color: lightyellow
+}
+
+
+.nav {
+    background-color: var(--primarycolor);
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: none;
+    padding: 0.5rem;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: auto;
+}
+
 #textarea1 {
     width: 50%;
     margin: 1rem;
     display: block;
     padding: 1rem;
     border-style: solid;
+    font-family: 'Comic Neue';
 
 }
 
-#button {}
+#button {
+    background-color: var(--primarycolor);
+    padding: 0.5rem;
+    margin: auto;
+    font-family: 'Comic Neue';
+    border: none;
+
+
+}
 
 #translatedText {
+    background-color: white;
     width: 50%;
     margin: 1rem;
     padding: 1rem;
-    border-style: solid;
+    border-style: inset;
+    font-family: 'Comic Neue';
+
+}
+
+.footer {
+    background-color: var(--primarycolor);
+    font-family: 'Comic Neue';
+    margin: auto;
+    padding: 1rem;
 }
