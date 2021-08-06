@@ -10,7 +10,7 @@
 var translateButton = document.querySelector("#button");
 var txtInput = document.querySelector("#textarea1")
 var translatedText = document.querySelector("#translatedText")
-var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var url = "https://api.funtranslations.com/translate/minion.json"
 //  added encoding
 const encodedUrl = encodeURI(url)
 
@@ -35,7 +35,11 @@ function clicked() {
 
     fetch(constructUrl(input))
         .then(response => response.json())
-        .then(json => console.log(json))
+        .then(json => {
+            var translation = json.contents.translated;
+            translatedText.innerText = translation;
+            
+        })
         .catch(errorHandler)
 
 }
