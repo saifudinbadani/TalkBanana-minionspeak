@@ -25,10 +25,11 @@ body{
 }
 
 #textarea1 {
-    width: 50%;
-    margin: 1rem;
+    width: 80%;
+    
+    margin: 1rem auto;
     display: block;
-    min-height: 10vh;
+    min-height: 20vh;
     padding: 1rem;
     border-style: solid;
     font-family: 'Comic Neue';
@@ -37,8 +38,11 @@ body{
 
 #button {
     background-color: var(--primarycolor);
-    padding: 0.5rem;
-    margin: auto;
+    display: flex;
+    font-size: 1rem;
+    margin: 0.5rem auto;
+    margin-top: 1rem;
+    padding: 1rem;
     font-family: 'Comic Neue';
     border: none;
 
@@ -47,9 +51,9 @@ body{
 
 #translatedText {
     background-color: white;
-    width: 50%;
-    min-height: 10vh;
-    margin: 1rem;
+    width: 80%;
+    min-height: 20vh;
+    margin: auto;
     padding: 1rem;
     border-style: inset;
     font-family: 'Comic Neue';
@@ -66,6 +70,3 @@ body{
     padding: 1rem;
 }
 
-footer p {
-    max-width: 600px;
-}
